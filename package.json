@@ -1,0 +1,25 @@
+{
+  "name": "windows-build-tools",
+  "version": "0.0.0",
+  "description": "Install C++ Build Tools for Windows using apm",
+  "os": [
+    "win32"
+  ],
+  "keywords": [
+    "Windows",
+    "Build Tools",
+    "node-gyp",
+    "native",
+    "c++"
+  ],
+  "scripts": {
+    "install": "npm install --global windows-build-tools"
+  },
+  "repository": "https://github.com/lgeiger/windows-build-tools",
+  "author": "Lukas Geiger",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lgeiger/windows-build-tools#readme"
+}
