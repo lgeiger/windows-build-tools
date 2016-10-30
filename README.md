@@ -16,3 +16,8 @@ It will install [Windows Build Tools](https://github.com/felixrieseberg/windows-
 > > :bulb: [Windows Vista / 7 only] requires .NET Framework 4.5.1 (Currently not installed automatically by this package)
 
 > Both installations are conflict-free, meaning that they do not mess with existing installations of Visual Studio, C++ Build Tools, or Python. If you see anything that indiciates otherwise, please file a bug.
+
+To verify that everything worked run:
+```powershell
+apm install --check
+```
