@@ -1,5 +1,7 @@
 # Windows-Build-Tools for Atom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lgeiger/windows-build-tools.svg)](https://greenkeeper.io/)
+
 On Windows? Want to install [Atom](https://atom.io/) packages depending on native Node modules?
 
 Install the build tools from an elevated PowerShell (run as Administrator) by running:
