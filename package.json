@@ -13,7 +13,8 @@
     "c++"
   ],
   "scripts": {
-    "install": "npm install --global windows-build-tools"
+    "install": "npm install --global windows-build-tools",
+    "postinstall": "apm config set msvs_version 2015"
   },
   "repository": "https://github.com/lgeiger/windows-build-tools",
   "author": "Lukas Geiger",
